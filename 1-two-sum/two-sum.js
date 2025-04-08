@@ -11,6 +11,7 @@ var twoSum = function(nums, target) {
             return [searchMap.get(complete), i]
         }
         searchMap.set(nums[i], i);
+        console.log(searchMap)
     }
     return;
 };
